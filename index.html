@@ -13,8 +13,9 @@
         <link rel="stylesheet" href="css/styles.css">
     <title>Jacek</title>
   </head>
-  <body>
+  <body onload="clock()">
     <div class="topContainer">
+      <span id="clock"></span>
       <img class="topCloud" src="images/cloud.png" alt="cloud">
       <h1>Mam na imię Jacek.</h1>
       <h2>jestem studentem i początkującym programistą.</h2>
@@ -25,7 +26,7 @@
       <div class="profile">
         <img class="profilePhoto" src="images/profile-photo.jpg" alt="profile photo">
         <h2>Cześć.</h2>
-        <p class="intro">Studiuję informatykę w Wyższej Szkole Bankowej. W wolnych chwilach uczę się programowania.</p>
+        <p class="intro">Mam <span id= "age"></span> lat. Studiuję informatykę w Wyższej Szkole Bankowej. W wolnych chwilach uczę się programowania.</p>
       </div>
       <hr>
       <div class="skills">
@@ -48,6 +49,10 @@
       <img class="skills-photo" src="images/java-script.png" alt="Fourth slide">
       <span class="skills-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
     </div>
+    <div class="carousel-item">
+      <img class="skills-photo" src="images/nodejs.png" alt="Fifth slide">
+      <span class="skills-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -67,9 +72,12 @@
       </div>
     </div>
     <div class="bottomContainer">
-      <a class="footer-link" href="https://www.linkedin.com/in/jacek-b%C5%82aszczyk-aa1429170/">LinkedIn</a>
-      <a class="footer-link" href="https://www.facebook.com/profile.php?id=100002990475300">Facebook</a>
+      <a class="footer-link" href="https://www.linkedin.com/in/jacek-b%C5%82aszczyk-aa1429170/"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a class="footer-link" href="https://www.facebook.com/profile.php?id=100002990475300"><i class="fab fa-facebook fa-3x"></i></a>
+      <a class="footer-link" href="https://www.github.com/Jacek1991"><i class="fab fa-github fa-3x"></i></a>
       <p class="copyright">© 2019 Jacek Błaszczyk.</p>
     </div>
+
+    <script src="index.js" charset="utf-8"></script>
   </body>
 </html>

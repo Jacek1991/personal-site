@@ -144,3 +144,13 @@ color: #112d4e;
 font-weight: normal;
 line-height: 2;
 }
+#clock {
+  font-size: 1.4rem;
+  font-family: 'Roboto';
+color: #112d4e;
+font-weight: normal;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
+}
